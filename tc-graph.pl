@@ -12,7 +12,7 @@
 #
 
 $BIN_TC="/sbin/tc";
-$DEV="eth1";
+$DEV="eth0";
 $USE_CLUSTER=0;
 
 %parent_hash;    # $child => $parent
