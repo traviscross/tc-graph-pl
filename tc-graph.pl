@@ -11,7 +11,7 @@
 # Version:     v0.13
 #
 
-$BIN_TC="/sbin/tc-htb";
+$BIN_TC="/sbin/tc";
 $DEV="eth1";
 $USE_CLUSTER=0;
 
