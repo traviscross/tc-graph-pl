@@ -11,8 +11,13 @@
 # Version:     v0.13
 #
 
+if ($#ARGV + 1 < 1 ) {
+    print "Usage: $0 <interface>\n";
+    exit(1);
+}
+
 $BIN_TC="/sbin/tc";
-$DEV="eth0";
+$DEV=$ARGV[0];
 $USE_CLUSTER=0;
 
 %parent_hash;    # $child => $parent
